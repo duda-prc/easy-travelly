@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.3'
+ruby '3.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.6', '>= 6.1.6.1'
@@ -51,7 +51,7 @@ group :development do
   # gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  # gem 'spring'
 end
 
 group :test do
@@ -84,3 +84,7 @@ gem "font-awesome-sass", "~> 6.1"
 gem 'simple_form', github: 'heartcombo/simple_form'
 
 gem "select2-rails"
+
+gem "net-smtp", "~> 0.4.0"
+
+gem "nokogiri"
